@@ -1,23 +1,24 @@
 body{
-    font-family: 'Poppins', sans-serif;
-    font-family: 'PT Serif', serif;
-    margin: 0px auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    margin 0px auto;
 }
 #header{
     display: flex;
 }
 .highlighter{
-    color:blue;
+    color:rgba(30, 30, 207, 0.739);
 }
 h1{
     font-size: 40px;
 }
+h2 {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 40px;}
 p{
     text-align: justify;
 }
 .first-box{
     width: 34%;
-    margin: 30px 61px;
+    margin: 30px 60px;
     padding: 20px 20px;
 }
 .design-higlight{
@@ -30,7 +31,7 @@ p{
     text-decoration: none;
     font-size: 20px;
     padding: 5px 10px;
-    background: deeppink;
+    background: rgb(3, 126, 109);
     border-radius: 10px;
 }
 .first-box img{
@@ -66,7 +67,6 @@ p{
 .image img{
     width: 51%;
     padding: 15px 30px;
-}
 }
 .content{
     width: 36%;
