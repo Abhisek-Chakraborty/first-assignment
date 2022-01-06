@@ -33,9 +33,9 @@ p{
     padding: 5px 10px;
     background: rgb(71, 3, 126);
     color: whitesmoke;
-    border-radius: 6px;
+    border-radius: 8px;
 }
-.first-box img{
+.first-box img{ 
     width: 85%;
     margin: -25px 100px;
 }
@@ -50,7 +50,7 @@ p{
     width: 30%;
     margin: 10px 15px;
     padding: 1px 30px;
-    border-radius: 4px;
+    border-radius: 9Px;
     background-color: rosybrown;
 }
 #one{
@@ -73,7 +73,7 @@ p{
     float: left;
 }
 .image img{
-    width: 51%;
+    width: 100%;
     padding: 15px 30px;
 }
 .content{
@@ -96,7 +96,7 @@ p{
     margin: 10px 10px;
     text-align: center;
     height: 150px;
-    box-shadow: rgb(167, 75, 0) 3px 3px 2px 2px;
+    box-shadow: rgb(167, 75, 5) 3px 3px 2px 2px;
     padding: 5px 5px;
 }
 #footer{
