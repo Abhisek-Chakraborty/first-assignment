@@ -6,7 +6,7 @@ body{
     display: flex;
 }
 .highlighter{
-    color:rgba(30, 30, 207, 0.739);
+    color:rgba(12, 149, 0, 0.739);
 }
 h1{
     font-size: 40px;
@@ -31,8 +31,9 @@ p{
     text-decoration: none;
     font-size: 20px;
     padding: 5px 10px;
-    background: rgb(3, 126, 109);
-    border-radius: 10px;
+    background: rgb(71, 3, 126);
+    color: whitesmoke;
+    border-radius: 6px;
 }
 .first-box img{
     width: 85%;
@@ -42,7 +43,6 @@ p{
     text-align: center;
 }
 .box-container{
-    border: 2px solid red;
     display: flex;
 }
 .box{
@@ -50,16 +50,24 @@ p{
     width: 30%;
     margin: 10px 15px;
     padding: 1px 30px;
-    border-radius: 10px;
+    border-radius: 4px;
     background-color: rosybrown;
-    
+}
+#one{
+    background-color: blanchedalmond;
+}
+#two{
+    background-color: burlywood;
+}
+#three{
+    background-color: aquamarine;
 }
 .box img{
     width: 45%;
 }
-/* #develop{
-    display: flex;
-} */
+.container-dev {
+       display: flex;
+}
 .image{
     width: 30%;
     float: left;
@@ -73,14 +81,22 @@ p{
     margin-right: 50px;
     padding: 44px;
 }
-#community{
+.content a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 10px;
+    background: rgb(71, 3, 126);
+    color: whitesmoke;
+    border-radius: 6px;
+}
+#community{ 
     overflow: hidden;
 }
 #application{
     margin: 10px 10px;
     text-align: center;
     height: 150px;
-    box-shadow: red 5px 5px 5px 5px;
+    box-shadow: rgb(167, 75, 0) 3px 3px 2px 2px;
     padding: 5px 5px;
 }
 #footer{
@@ -89,4 +105,7 @@ p{
     color: white;
     text-align: center;
     padding: 5px;
+}
+#footer span{
+ color: rgb(240, 52, 52);
 }
